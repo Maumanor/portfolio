@@ -241,4 +241,32 @@ footer {
     width: 250px;
     height: 250px;
   }
+
+  #contato a {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 10px 18px;
+  border: 2px solid #00ff88;
+  border-radius: 20px;
+  color: #00ff88;
+  text-decoration: none;
+  transition: 0.3s;
 }
+
+#contato a:hover {
+  background: #00ff88;
+  color: #111;
+}
+
+.secao {
+  opacity: 0;
+  transform: translateY(30px);
+  transition: 0.6s;
+}
+
+.secao.ativo {
+  opacity: 1;
+  transform: translateY(0);
+}
+}
+
